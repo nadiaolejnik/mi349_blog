@@ -99,7 +99,11 @@ thead {
     .avatar {
         object-fit: scale-down; max-width: 100%;
         height: auto;
-        scale: auto;
+    }
+
+    #Blog {
+        object-fit: scale-down; max-width: 100%;
+        height: auto;
     }
 
     .blog-post1 {
