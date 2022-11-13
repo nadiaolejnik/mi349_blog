@@ -38,25 +38,40 @@ p {
     line-height: 1.4em;
 }
 
+.avatar {
+    width: 100%;
+}
+
 #Blog {
     border-top: 1px dotted #ccc;
     display:flex;
+    object-fit: contain;
 }
 
 .blog-post1 {
-    flex:2;
+    flex: 1;
     background: #D7D6D5;
     border-bottom: 1px dotted #ccc;
     padding: 30px;
     margin: 30px;
 }
 
+.blog-post1 .move {
+    margin: auto;
+    width: 100%;
+}
+
 .blog-post2 {
-    flex:2;
+    flex: 1;
     background: #D7D6D5;
     border-bottom: 1px dotted #ccc;
     padding: 30px;
     margin: 30px;
+}
+
+.blog-post2 .pizza {
+    margin: auto;
+    width: 100%;
 }
 
 table {
@@ -76,4 +91,20 @@ thead {
     float: left;
     margin-right: 10px;
     text-align: center;
+}
+
+
+
+@media (max-width: 400px ) {
+    .avatar {
+        object-fit: scale-down; max-width: 100%;
+        height: auto;
+        scale: auto;
+    }
+
+    .blog-post1 {
+        padding: 10px;
+        margin: 10px;
+    }
+
 }
