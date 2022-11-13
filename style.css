@@ -45,7 +45,6 @@ p {
 #Blog {
     border-top: 1px dotted #ccc;
     display:flex;
-    object-fit: contain;
 }
 
 .blog-post1 {
@@ -96,19 +95,9 @@ thead {
 
 
 @media (max-width: 400px ) {
-    .avatar {
-        object-fit: scale-down; max-width: 100%;
-        height: auto;
-    }
-
     #Blog {
-        object-fit: scale-down; max-width: 100%;
-        height: auto;
+        background-color:aquamarine;
     }
-
-    .blog-post1 {
-        padding: 10px;
-        margin: 10px;
     }
 
 }
