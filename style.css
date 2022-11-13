@@ -96,6 +96,6 @@ thead {
 
 @media (max-width: 400px) {
     #Blog {
-        display: inline-flex;
+        background: grey;
     }
 }
